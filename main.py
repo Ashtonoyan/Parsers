@@ -75,7 +75,7 @@ def scrape_and_save_data(base_url,  start_page, end_page):
     print(f"Данные сохранены в 'data_chrysler_1_100.csv'.")
 
 # базовый URL сайта и количество страниц, которые хотим спарсить
-base_url = "https://rrr.lt/ru/poisk?man_id=36&mfi=36;&prs=1"
+base_url = ""
 
 start_page_to_scrape = 2 #начинаем с 1000 страницы
 end_page_to_scrape = 100 #парсим до 1500 страницы
